@@ -11,6 +11,7 @@
 .navbar-logo {
   width: 126px;
   height: 59px;
+  cursor: pointer;
 }
 
 .navbar-container {
@@ -50,6 +51,7 @@ li {
   height: 32px;
   padding: 6px 6px 6px 6px;
   border-radius: 5px;
+  cursor: pointer;
 }
 
 .navbar-icon-container {
@@ -116,3 +118,38 @@ li {
 }
 
 // !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+.group-input-search {
+  position: relative;
+}
+
+.group-input-search-container {
+  display: flex;
+  align-items: center;
+}
+
+.input-search {
+  width: 140px;
+  height: 32px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 1px solid gray;
+  border-radius: 10px;
+  outline: none;
+  background-color: #edf1f6;
+
+  font-family: "cero-pro";
+}
+
+.input-search::placeholder {
+  color: #9e9ea7;
+}
+
+.icon-search {
+  position: absolute;
+  left: 0.4rem;
+  fill: #9e9ea7;
+  width: 25px;
+  height: 24px;
+  cursor: pointer;
+}
