@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 792px;
+  background: linear-gradient(to right, var(--blue-color), #0a5bba00);
+}
+.header_img {
+  position: absolute;
+  left: 0;
+}
+.header_text h1 {
+  color: white;
+  font-weight: 500;
+
+  font-size: var(--section-title-size);
+}
+.header_text p {
+  color: white;
+  font-size: var(--third-size);
+  font-weight: 400;
+}
+.header_images {
+  display: flex; /* Создаем горизонтальный flex-контейнер */
+  overflow: hidden;
+  height: 792px;
+}
+.header_images_container {
+  animation: moveDown 220s linear infinite;
+  display: flex;
+  flex-direction: column; /* Устанавливаем вертикальное направление flex-контейнера */
+}
+
+.header_images img {
+  margin: 10px;
+}
+
+@keyframes moveDown {
+  25% {
+    transform: translateY(-75%);
+  }
+  75% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-75%);
+  }
+}
