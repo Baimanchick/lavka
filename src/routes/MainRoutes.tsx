@@ -7,6 +7,7 @@ import AnnouncementPage from "../pages/AnnouncementPage";
 import PurchasePage from "../pages/PurchasePage";
 import TenderPage from "../pages/TenderPage";
 import HomePage from "../pages/homePage/HomePage";
+// import HomePage from "../pages/homePage/HomePage";
 
 function MainRoutes() {
   return (
