@@ -29,7 +29,15 @@ h2 {
 .news_section {
   padding: 12vh 12vh;
 }
-
+.news_section button {
+  width: 20vh;
+  height: 5vh;
+  background-color: var(--blue-color);
+  border-radius: 1vh;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
 .news_info_block {
   display: flex;
   justify-content: space-between;
