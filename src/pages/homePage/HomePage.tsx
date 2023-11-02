@@ -73,7 +73,16 @@ function HomePage() {
       </header>
 
       <section className={styles.news_section}>
-        <h2>Новости, Публикации и Циркулярные письма от УГО</h2>
+        <div
+          style={{
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "space-between",
+          }}
+        >
+          <h2>Новости, Публикации и Циркулярные письма от УГО</h2>
+          <button>Подробнее</button>
+        </div>
 
         <div style={{ display: "flex" }}>
           <div>

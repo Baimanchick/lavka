@@ -35,25 +35,25 @@ function Navbar() {
             <ul className="navigation-container">
               <li
                 className={`navigation__item ${
-                  activeItem === "/total" ? "active" : ""
+                  activeItem === "/" ? "active" : ""
                 }`}
                 onClick={() => {
-                  setActiveItem("/total");
-                  navigate("/total");
+                  setActiveItem("/");
+                  navigate("/");
                 }}
               >
-                Общие данные
+                Главная
               </li>
               <li
                 className={`navigation__item ${
-                  activeItem === "/application" ? "active" : ""
+                  activeItem === "/news" ? "active" : ""
                 }`}
                 onClick={() => {
-                  setActiveItem("/application");
-                  navigate("/application");
+                  setActiveItem("/news");
+                  navigate("/news");
                 }}
               >
-                Заявки
+                Новости
               </li>
               <li
                 className={`navigation__item ${
@@ -64,18 +64,7 @@ function Navbar() {
                   navigate("/announcement");
                 }}
               >
-                Объявление
-              </li>
-              <li
-                className={`navigation__item ${
-                  activeItem === "/purchase" ? "active" : ""
-                }`}
-                onClick={() => {
-                  setActiveItem("/purchase");
-                  navigate("/purchase");
-                }}
-              >
-                Закуп
+                Обьявления
               </li>
               <li
                 className={`navigation__item ${
@@ -87,6 +76,17 @@ function Navbar() {
                 }}
               >
                 Тендер
+              </li>
+              <li
+                className={`navigation__item ${
+                  activeItem === "/questions" ? "active" : ""
+                }`}
+                onClick={() => {
+                  setActiveItem("/questions");
+                  navigate("/questions");
+                }}
+              >
+                Вопросы
               </li>
             </ul>
           </div>
