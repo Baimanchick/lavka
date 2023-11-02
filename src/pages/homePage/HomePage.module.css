@@ -12,8 +12,7 @@
 }
 .header_text h1 {
   color: white;
-  font-weight: 500;
-
+  font-weight: 600;
   font-size: var(--section-title-size);
 }
 .header_text p {
@@ -21,15 +20,152 @@
   font-size: var(--third-size);
   font-weight: 400;
 }
+h2 {
+  font-size: 36px;
+  font-weight: 800;
+  margin: 7vh 0;
+}
+/*  */
+.news_section {
+  padding: 12vh 12vh;
+}
+
+.news_info_block {
+  display: flex;
+  justify-content: space-between;
+}
+.news_info {
+  display: flex;
+  align-items: start;
+}
+.news_info div {
+  width: 40vh;
+  padding: 0 0 0 2vh;
+}
+.news_info h4 {
+  font-size: 24px;
+}
+
+/*  */
+
+.ads {
+  background-color: var(--lightgrey-color);
+}
+.ads_block {
+  padding: 0vh 12vh 12vh;
+}
+.ads_block_title {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.ads_block_title button {
+  width: 20vh;
+  height: 5vh;
+  background-color: var(--blue-color);
+  border-radius: 1vh;
+  border: none;
+  color: white;
+  font-size: 20px;
+}
+.ads_block_btns {
+  margin-bottom: 3vh;
+}
+.ads_block_btns button {
+  margin: 0 1vh 0 0;
+  padding: 1vh 2vh;
+  width: auto;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 1px 2px 0px #04111f26;
+  border: none;
+  border-radius: 0.5vh;
+  font-weight: 600;
+  font-size: var(--nav-size);
+}
+.ads_block_btns button.active {
+  background-color: var(--blue-color);
+  color: #fff;
+}
+.ads_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  width: 85vh;
+  height: 44vh;
+  padding: 3vh;
+  border-radius: 1.5vh;
+  box-shadow: 0px 1px 2px 0px #00003226;
+}
+.ads_card_p {
+  display: flex;
+  justify-content: space-between;
+}
+.ads_card_info h4 {
+  margin: 0.2vh 0 2vh;
+  font-size: 20px;
+}
+.ads_card button {
+  display: flex;
+  justify-content: flex-end;
+  background-color: transparent;
+  font-size: var(---main-size);
+  font-weight: 600;
+  color: var(--blue-color);
+  border: none;
+  margin-bottom: 1vh;
+}
+/* */
+.additional_info {
+  padding: 0vh 12vh 10vh;
+}
+.additional_info div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.additional_info img {
+  margin: 2vh;
+}
+/*  */
+
+.questions {
+  padding: 0vh 12vh 12vh;
+}
+.question_btns {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 2vh 3vh;
+  font-size: 22px;
+  font-weight: 600;
+  color: black;
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 2px grey;
+  cursor: pointer;
+}
+.down_arrow {
+  transform: rotate(180deg);
+}
+
+.paragraph {
+  margin: 10px 0;
+  padding: 1vh 3vh;
+  font-weight: 500;
+  font-size: 20px;
+}
+/* ! анимация  картинок */
 .header_images {
-  display: flex; /* Создаем горизонтальный flex-контейнер */
+  display: flex;
   overflow: hidden;
   height: 792px;
 }
 .header_images_container {
   animation: moveDown 220s linear infinite;
   display: flex;
-  flex-direction: column; /* Устанавливаем вертикальное направление flex-контейнера */
+  flex-direction: column;
 }
 
 .header_images img {

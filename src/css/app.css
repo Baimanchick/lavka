@@ -1,8 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=Manrope:wght@400;700;800&family=Roboto:wght@300;400;500;700;900&family=Rubik+Pixels&display=swap");
-
+@font-face {
+  font-family: "cero-pro";
+  src: url("../fonts/CeraPro/CeraPro-Light.ttf") format("truetype");
+}
 :root {
   /* font family */
-  --main-family: "Roboto", sans-serif;
+  --main-family: "cero-pro", sans-serif;
   /* --second-family: "Inter", sans-serif; */
   /* font size */
   --main-size: 18px;
@@ -18,7 +20,7 @@
   --orange-color: #ff8a00;
   /* --rgba-color: rgba(151, 151, 151, 0.2); */
   /* --grey-color: #767e8c; */
-  --lightgrey-color: #edf1f6;
+  --lightgrey-color: #f9f9f9;
   --white-color: #ffffff;
 
   /* --container-width: 1200px; */

@@ -1,6 +1,25 @@
 .footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
   width: 100%;
-  height: 100px;
+  height: auto;
   background-color: var(--dark-blue);
-  margin-top: 50px;
+  padding: 5vh 10vh;
+  color: white;
+}
+.footer_info_block {
+  display: flex;
+}
+.footer_info_block div {
+  width: 200px;
+  margin: 0 2vh;
+}
+.footer_info_block h3 {
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 2vh;
+}
+.footer_info_block p {
+  padding: 1vh 0;
 }
