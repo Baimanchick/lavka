@@ -2,15 +2,35 @@
   font-family: "cero-pro";
   src: url("../fonts/CeraPro/CeraPro-Light.ttf") format("truetype");
 }
+
+@font-face {
+  font-family: "cero-pro-black";
+  src: url("../fonts/CeraPro/CeraPro-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "cero-pro-medium";
+  src: url("../fonts/CeraPro/CeraPro-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "mulish-gray";
+  src: url("../fonts/Mulish/Mulish-VariableFont_wght.ttf") format("truetype");
+}
+
 :root {
   /* font family */
   --main-family: "cero-pro", sans-serif;
+  --secondary-family: "cero-pro-black", sans-serif;
+  --third-family: "mulish-gray", sans-serif;
+  --fourth-family: "cero-pro-medium", sans-serif;
   /* --second-family: "Inter", sans-serif; */
   /* font size */
   --main-size: 18px;
   --nav-size: 16px;
   --third-size: 40px;
   --section-title-size: 48px;
+  --news-card-title-size: 14px;
 
   /* colors */
   --black-color: #000000;

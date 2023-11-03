@@ -31,7 +31,7 @@ li {
 
 .navigation__item {
   font-weight: 600;
-  // font-family: "cero-pro";
+  // font-family: var(--main-family);
   font-size: 15px;
   transition: transform 0.9s ease;
   cursor: pointer;
