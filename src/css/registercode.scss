@@ -1,0 +1,184 @@
+.regCode-container {
+  display: flex;
+  height: 100vh;
+}
+
+.regCode-background-image {
+  width: 893px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.regCode-wrapper-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.regCode-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.regCode-conatiner-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 145px;
+}
+
+.regCode-conatiner-title > h3 {
+  font-size: 36px;
+  font-family: var(--secondary-family);
+}
+
+.regCode-conatiner-title > p {
+  font-size: var(--main-family);
+}
+
+.from-container-regCode {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.email-regCode {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-regCode > input:focus {
+  outline: none;
+}
+
+.regCode-input-email {
+  height: 49px;
+  border-radius: 8px;
+  border: 1px solid var(--dark-blue);
+  padding: 0 10px;
+  font-family: var(--main-family);
+  font-size: 18px;
+}
+
+.regCode-input-email-error {
+  height: 49px;
+  border-radius: 8px;
+  border: 1px solid var(--red-color);
+  padding: 0 10px;
+  font-family: var(--main-family);
+  font-size: 18px;
+}
+
+.email-regCode-span {
+  //   font-family: var(--third-family);
+  font-size: 14px;
+}
+
+.email-regCode-span-error {
+  //   font-family: var(--third-family);
+  font-size: 14px;
+  color: var(--red-color);
+  margin-left: 10px;
+}
+
+//!!!!!!!!
+
+.input-regCode {
+  border: 1px solid var(--dark-blue);
+  border-radius: 8px;
+  outline: none;
+  //   flex: 1;
+  padding: 0 10px;
+  font-family: var(--main-family);
+  font-size: 18px;
+  height: 49px;
+}
+
+.input-conatiner-regCode {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-conatiner-regCode > span {
+  font-size: 14px;
+}
+
+.regCode-regCode-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.regCode-regCode-container > button {
+  height: 53px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  font-family: var(--secondary-family);
+  font-size: 20px;
+}
+
+.regCode-regCode-title {
+  display: flex;
+  margin-top: 5px;
+}
+
+.regCode-regCode-title > span > strong {
+  color: var(--blue-color);
+  font-weight: bolder;
+  font-family: var(--secondary-family);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.regCode-regCode-title > span {
+  font-size: 18px;
+}
+
+.regCode-help {
+  margin-top: 210px;
+}
+
+.strong-regCode {
+  color: var(--blue-color);
+  font-weight: bolder;
+  font-family: var(--secondary-family);
+}
+
+.checkBox-conatiner-regCode {
+  display: flex;
+  gap: 15px;
+}
+
+.checkBox-regCode {
+  width: 24px;
+  height: 24px;
+  border-radius: 10px;
+}
+
+.checkBox-conatiner-regCode > p > strong {
+  color: var(--blue-color);
+  font-weight: bolder;
+  font-family: var(--secondary-family);
+  cursor: pointer;
+}
+
+.regCode-box-container {
+  margin-top: 50px;
+}
+
+.regCode-box-input {
+  width: 120px;
+  height: 80px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 32px;
+}
+
+.regCode-box {
+  display: flex;
+  gap: 10px;
+}

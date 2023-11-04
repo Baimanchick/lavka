@@ -1,0 +1,168 @@
+.regZak-container {
+  display: flex;
+  height: 100vh;
+}
+
+.regZak-background-image {
+  width: 893px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.regZak-wrapper-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.regZak-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.regZak-conatiner-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 35px;
+}
+
+.regZak-conatiner-title > h3 {
+  font-size: 36px;
+  font-family: var(--secondary-family);
+}
+
+.regZak-conatiner-title > p {
+  font-size: var(--main-family);
+}
+
+.from-container-regZak {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.email-regZak {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-regZak > input:focus {
+  outline: none;
+}
+
+.regZak-input-email {
+  height: 49px;
+  border-radius: 8px;
+  border: 1px solid var(--dark-blue);
+  padding: 0 10px;
+  font-family: var(--main-family);
+  font-size: 18px;
+}
+
+.regZak-input-email-error {
+  height: 49px;
+  border-radius: 8px;
+  border: 1px solid var(--red-color);
+  padding: 0 10px;
+  font-family: var(--main-family);
+  font-size: 18px;
+}
+
+.email-regZak-span {
+  //   font-family: var(--third-family);
+  font-size: 14px;
+}
+
+.email-regZak-span-error {
+  //   font-family: var(--third-family);
+  font-size: 14px;
+  color: var(--red-color);
+  margin-left: 10px;
+}
+
+//!!!!!!!!
+
+.input-regZak {
+  border: 1px solid var(--dark-blue);
+  border-radius: 8px;
+  outline: none;
+  //   flex: 1;
+  padding: 0 10px;
+  font-family: var(--main-family);
+  font-size: 18px;
+  height: 49px;
+}
+
+.input-conatiner-regZak {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-conatiner-regZak > span {
+  font-size: 14px;
+}
+
+.regZak-regZak-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.regZak-regZak-container > button {
+  height: 53px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  font-family: var(--secondary-family);
+  font-size: 20px;
+}
+
+.regZak-regZak-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.regZak-regZak-title > span > strong {
+  color: var(--blue-color);
+  font-weight: bolder;
+  font-family: var(--secondary-family);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.regZak-regZak-title > span {
+  font-size: 18px;
+}
+
+.regZak-help {
+  margin-top: 30px;
+}
+
+.strong-regZak {
+  color: var(--blue-color);
+  font-weight: bolder;
+  font-family: var(--secondary-family);
+}
+
+.checkBox-conatiner-regZak {
+  display: flex;
+  gap: 15px;
+}
+
+.checkBox-regZak {
+  width: 24px;
+  height: 24px;
+  border-radius: 10px;
+}
+
+.checkBox-conatiner-regZak > p > strong {
+  color: var(--blue-color);
+  font-weight: bolder;
+  font-family: var(--secondary-family);
+  cursor: pointer;
+}
