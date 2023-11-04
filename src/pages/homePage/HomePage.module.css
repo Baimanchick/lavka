@@ -57,7 +57,7 @@ h2 {
 /*  */
 
 .ads {
-  background-color: var(--lightgrey-color);
+  background-color: #f4f4f4;
 }
 .ads_block {
   padding: 0vh 12vh 12vh;
@@ -95,35 +95,7 @@ h2 {
   background-color: var(--blue-color);
   color: #fff;
 }
-.ads_card {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  background-color: white;
-  width: 85vh;
-  height: 44vh;
-  padding: 3vh;
-  border-radius: 1.5vh;
-  box-shadow: 0px 1px 2px 0px #00003226;
-}
-.ads_card_p {
-  display: flex;
-  justify-content: space-between;
-}
-.ads_card_info h4 {
-  margin: 0.2vh 0 2vh;
-  font-size: 20px;
-}
-.ads_card button {
-  display: flex;
-  justify-content: flex-end;
-  background-color: transparent;
-  font-size: var(---main-size);
-  font-weight: 600;
-  color: var(--blue-color);
-  border: none;
-  margin-bottom: 1vh;
-}
+
 /* */
 .additional_info {
   padding: 0vh 12vh 10vh;

@@ -31,3 +31,9 @@
   padding: 0;
   font-family: var(--main-family);
 }
+body {
+  background-color: #f9f9f9;
+}
+Link {
+  text-decoration: none;
+}

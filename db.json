@@ -1,0 +1,16 @@
+{
+  "tenders": [
+    {
+      "id": 1,
+      "title_tenders": "Кыргызтелеком",
+      "procurement_method": "Кабель для протяжки интернет сетей ",
+      "description_courses": "какое-то описание видео",
+      "category": "JS",
+      "quantity": 45,
+      "start_date": "19 октября",
+      "time": 300,
+      "price": 34000,
+      "status": "paid"
+    }
+  ]
+}

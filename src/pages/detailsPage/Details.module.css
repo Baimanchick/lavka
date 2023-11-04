@@ -1,0 +1,114 @@
+.details_header {
+  display: flex;
+  flex-direction: column;
+}
+
+.details_header img {
+  width: 100px;
+  height: 80px;
+}
+.details_title {
+  display: flex;
+  align-items: center;
+}
+.details_card {
+  width: 50%;
+  height: auto;
+  padding: 2vh 3vh;
+  box-shadow: 0px 1px 2px 1px #04111f26;
+}
+
+.details_card p {
+  font-size: var(--main-size);
+  font-weight: 500;
+  margin: 2vh 0;
+}
+.details_card span {
+  font-weight: 600;
+}
+.details_card p:first-child {
+  color: gray;
+  font-size: 14px;
+}
+/* */
+/* InfoTable.css */
+table {
+  margin: 5vh 0;
+  border-collapse: collapse;
+  border: none;
+  width: 100%;
+  box-shadow: 0px 1px 2px 0px #04111f26;
+}
+
+tr {
+  border: none;
+  text-align: left;
+}
+
+th {
+  width: 35%;
+  border: none;
+  border-right: solid 1px grey;
+  padding: 3vh;
+  font-size: var(--main-size);
+  font-weight: 500;
+}
+
+td {
+  border: none;
+  padding: 3vh;
+  font-size: var(--main-size);
+  font-weight: 500;
+}
+
+tr:nth-child(odd) {
+  background-color: #0a5bba8a; /* Чередующийся фон синего цвета для нечетных строк */
+}
+/*  */
+.lots {
+}
+.lots button {
+  margin: 0 1vh 0 0;
+  padding: 3vh;
+  width: auto;
+  background-color: white;
+  color: black;
+  box-shadow: 0px 1px 2px 0px #04111f26;
+  border: none;
+  border-radius: 0.5vh;
+  font-weight: 600;
+  font-size: var(--main-size);
+}
+.lots button.active {
+  background-color: #0a5bba8a;
+}
+/*  */
+.requirements {
+  padding: 4vh;
+  border-radius: 1vh;
+  box-shadow: 0px 1px 2px 1px #00003226;
+}
+.requirements div {
+  padding: 0 3vh 0 0;
+  font-size: var(--main-size);
+  font-weight: 500;
+  overflow: auto;
+  max-height: 764px;
+}
+
+.requirements div::-webkit-scrollbar {
+  width: 8px; /* Ширина полосы прокрутки */
+}
+
+.requirements div::-webkit-scrollbar-track {
+  background: var(--lightgrey-color); /* Фон дорожки скролла */
+}
+
+.requirements div::-webkit-scrollbar-thumb {
+  background: var(--blue-color); /* Цвет полосы прокрутки */
+  border-radius: 10px;
+}
+
+.requirements div::-webkit-scrollbar-thumb:hover {
+  background: #07376d; /* Цвет полосы прокрутки при наведении */
+}

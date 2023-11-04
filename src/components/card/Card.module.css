@@ -1,0 +1,33 @@
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: white;
+  width: 85vh;
+  height: 44vh;
+  padding: 3vh;
+  border-radius: 1.5vh;
+  box-shadow: 0px 1px 2px 1px #00003226;
+  margin: 2vh 0;
+}
+.card_p {
+  display: flex;
+  justify-content: space-between;
+}
+.card_info h4 {
+  margin: 0.2vh 0 2vh;
+  font-size: 20px;
+}
+.card_btn {
+  display: flex;
+  justify-content: flex-end;
+}
+.card_btn button {
+  cursor: pointer;
+  background-color: transparent;
+  font-size: var(---main-size);
+  font-weight: 600;
+  color: var(--blue-color);
+  border: none;
+  margin-bottom: 1vh;
+}

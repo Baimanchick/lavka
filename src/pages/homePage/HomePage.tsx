@@ -17,6 +17,8 @@ import arrow from "../../images/icons/arrow.svg";
 import message from "../../images/icons/message.svg";
 import cash from "../../images/icons/cash.svg";
 import letter from "../../images/icons/letter.svg";
+import { Link } from "react-router-dom";
+import Card from "../../components/card/Card";
 function HomePage() {
   const [activeButton, setActiveButton] = useState("Новые");
   const questions = [
@@ -141,6 +143,7 @@ function HomePage() {
         <div className={styles.ads_block}>
           <div className={styles.ads_block_title}>
             <h2>Новые объявления</h2>
+
             <button>Подробнее</button>
           </div>
           <div className={styles.ads_block_btns}>
@@ -170,40 +173,8 @@ function HomePage() {
             </button>
           </div>
           <div style={{ display: "flex", justifyContent: "space-between" }}>
-            <div className={styles.ads_card}>
-              <div className={styles.ads_card_p}>
-                <p>Начало: 21.10.2023</p>
-                <p>Завершение: 21.10.2023</p>
-              </div>
-              <div className={styles.ads_card_info}>
-                <p>Компания :</p>
-                <h4>Кыргызтелеком</h4>
-                <p>Наименование закупки:</p>{" "}
-                <h4>
-                  Оро айыл аймагы 1-Май айылына ичүүчү таза суу чыгаруу үчүн
-                  скважиналык бургулоо иштерин жүргүзүү
-                </h4>
-                <p>Сумма:</p> <h4>200 000 сом</h4>
-              </div>
-              <button>Подробнее...</button>
-            </div>{" "}
-            <div className={styles.ads_card}>
-              <div className={styles.ads_card_p}>
-                <p>Начало: 21.10.2023</p>
-                <p>Завершение: 21.10.2023</p>
-              </div>
-              <div className={styles.ads_card_info}>
-                <p>Компания :</p>
-                <h4>Кыргызтелеком</h4>
-                <p>Наименование закупки:</p>{" "}
-                <h4>
-                  Оро айыл аймагы 1-Май айылына ичүүчү таза суу чыгаруу үчүн
-                  скважиналык бургулоо иштерин жүргүзүү
-                </h4>
-                <p>Сумма:</p> <h4>200 000 сом</h4>
-              </div>
-              <button>Подробнее...</button>
-            </div>
+            <Card />
+            <Card />
           </div>
         </div>
       </section>

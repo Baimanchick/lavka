@@ -57,14 +57,14 @@ function Navbar() {
               </li>
               <li
                 className={`navigation__item ${
-                  activeItem === "/announcement" ? "active" : ""
+                  activeItem === "/gos" ? "active" : ""
                 }`}
                 onClick={() => {
-                  setActiveItem("/announcement");
-                  navigate("/announcement");
+                  setActiveItem("/gos");
+                  navigate("/gos");
                 }}
               >
-                Обьявления
+                Гос закупки
               </li>
               <li
                 className={`navigation__item ${
