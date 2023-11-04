@@ -1,0 +1,142 @@
+.reg-container {
+  display: flex;
+  height: 100vh;
+}
+
+.reg-background-image {
+  width: 893px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.reg-wrapper-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.reg-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.reg-conatiner-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 50px;
+}
+
+.reg-conatiner-title > h3 {
+  font-size: 36px;
+  font-family: var(--secondary-family);
+}
+
+.reg-conatiner-title > p {
+  font-size: var(--main-family);
+  font-size: 20px;
+}
+
+.reg-reg-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.reg-reg-container > button {
+  height: 53px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  font-family: var(--secondary-family);
+  font-size: 20px;
+}
+
+.reg-reg-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.reg-reg-title > span > strong {
+  color: var(--blue-color);
+  font-weight: bolder;
+  font-family: var(--secondary-family);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.reg-reg-title > span {
+  font-size: 18px;
+}
+
+.reg-box-1 {
+  margin-top: 30px;
+  padding: 30px 20px 30px 20px;
+  background-image: url("../images/icons/WhiteHome.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  box-shadow: 3px 2px 3px 1px #04111f26;
+  border-radius: 8px;
+  height: auto;
+  cursor: pointer;
+}
+
+.reg-box-1-active {
+  margin-top: 30px;
+  padding: 30px 20px 30px 20px;
+  background-image: url("../images/icons/WhiteHome.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  box-shadow: 3px 2px 3px 1px #04111f26;
+  border-radius: 8px;
+  height: auto;
+  background-color: var(--blur-color);
+  cursor: pointer;
+}
+
+.reg-box-h3 {
+  font-size: 36px;
+  font-family: var(--secondary-family);
+}
+
+.reg-box-p {
+  margin-top: 15px;
+}
+
+.reg-box-2 {
+  margin-top: 30px;
+  padding: 30px 20px 30px 20px;
+  background-image: url("../images/icons/BlackNote.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  box-shadow: 3px 2px 3px 1px #04111f26;
+  border-radius: 8px;
+  height: auto;
+  cursor: pointer;
+}
+
+.reg-box-2-active {
+  margin-top: 30px;
+  padding: 30px 20px 30px 20px;
+  background-image: url("../images/icons/BlackNote.svg");
+  background-repeat: no-repeat;
+  background-position: top left;
+  box-shadow: 3px 2px 3px 1px #04111f26;
+  border-radius: 8px;
+  height: auto;
+  background-color: var(--blur-color);
+  cursor: pointer;
+}
+
+.reg-help {
+  margin-top: 30px;
+}
+
+.strong-reg {
+  color: var(--blue-color);
+  font-weight: bolder;
+  font-family: var(--secondary-family);
+}

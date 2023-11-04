@@ -1,0 +1,168 @@
+.regPod-container {
+  display: flex;
+  height: 100vh;
+}
+
+.regPod-background-image {
+  width: 893px;
+  height: 100%;
+  object-fit: cover;
+}
+
+.regPod-wrapper-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.regPod-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.regPod-conatiner-title {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 35px;
+}
+
+.regPod-conatiner-title > h3 {
+  font-size: 36px;
+  font-family: var(--secondary-family);
+}
+
+.regPod-conatiner-title > p {
+  font-size: var(--main-family);
+}
+
+.from-container-regPod {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 25px;
+}
+
+.email-regPod {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-regPod > input:focus {
+  outline: none;
+}
+
+.regPod-input-email {
+  height: 49px;
+  border-radius: 8px;
+  border: 1px solid var(--dark-blue);
+  padding: 0 10px;
+  font-family: var(--main-family);
+  font-size: 18px;
+}
+
+.regPod-input-email-error {
+  height: 49px;
+  border-radius: 8px;
+  border: 1px solid var(--red-color);
+  padding: 0 10px;
+  font-family: var(--main-family);
+  font-size: 18px;
+}
+
+.email-regPod-span {
+  //   font-family: var(--third-family);
+  font-size: 14px;
+}
+
+.email-regPod-span-error {
+  //   font-family: var(--third-family);
+  font-size: 14px;
+  color: var(--red-color);
+  margin-left: 10px;
+}
+
+//!!!!!!!!
+
+.input-regPod {
+  border: 1px solid var(--dark-blue);
+  border-radius: 8px;
+  outline: none;
+  //   flex: 1;
+  padding: 0 10px;
+  font-family: var(--main-family);
+  font-size: 18px;
+  height: 49px;
+}
+
+.input-conatiner-regPod {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-conatiner-regPod > span {
+  font-size: 14px;
+}
+
+.regPod-regPod-container {
+  display: flex;
+  flex-direction: column;
+  margin-top: 40px;
+}
+
+.regPod-regPod-container > button {
+  height: 53px;
+  border-radius: 8px;
+  border: none;
+  background-color: var(--blue-color);
+  color: var(--white-color);
+  font-family: var(--secondary-family);
+  font-size: 20px;
+}
+
+.regPod-regPod-title {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.regPod-regPod-title > span > strong {
+  color: var(--blue-color);
+  font-weight: bolder;
+  font-family: var(--secondary-family);
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.regPod-regPod-title > span {
+  font-size: 18px;
+}
+
+.regPod-help {
+  margin-top: 30px;
+}
+
+.strong-regPod {
+  color: var(--blue-color);
+  font-weight: bolder;
+  font-family: var(--secondary-family);
+}
+
+.checkBox-conatiner-regPod {
+  display: flex;
+  gap: 15px;
+}
+
+.checkBox-regPod {
+  width: 24px;
+  height: 24px;
+  border-radius: 10px;
+}
+
+.checkBox-conatiner-regPod > p > strong {
+  color: var(--blue-color);
+  font-weight: bolder;
+  font-family: var(--secondary-family);
+  cursor: pointer;
+}

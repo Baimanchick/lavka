@@ -17,6 +17,11 @@
   font-family: "mulish-gray";
   src: url("../fonts/Mulish/Mulish-VariableFont_wght.ttf") format("truetype");
 }
+@font-face {
+  font-family: "mulish-light-italic";
+  src: url("../fonts/Mulish/Mulish-Italic-VariableFont_wght.ttf")
+    format("truetype");
+}
 
 :root {
   /* font family */
@@ -24,6 +29,8 @@
   --secondary-family: "cero-pro-black", sans-serif;
   --third-family: "mulish-gray", sans-serif;
   --fourth-family: "cero-pro-medium", sans-serif;
+  --fifth-family: "mulish-light", sans-serif;
+
   /* --second-family: "Inter", sans-serif; */
   /* font size */
   --main-size: 18px;
@@ -36,8 +43,10 @@
   --black-color: #000000;
   --dark-blue: #1c2937;
   --blue-color: #0a5bba;
+  --red-color: #db3737;
   --blue-light: #0088ff;
   --orange-color: #ff8a00;
+  --blur-color: #acccf8;
   /* --rgba-color: rgba(151, 151, 151, 0.2); */
   /* --grey-color: #767e8c; */
   --lightgrey-color: #f9f9f9;

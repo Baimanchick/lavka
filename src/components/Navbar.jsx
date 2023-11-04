@@ -115,8 +115,15 @@ function Navbar() {
             ) : (
               <BsSearch className="search-icon" onClick={handleSearchClick} />
             )}
-            <button className="navbar-login">Войти</button>
-            <button className="navbar-register">Регистрация</button>
+            <button onClick={() => navigate("/login")} className="navbar-login">
+              Войти
+            </button>
+            <button
+              onClick={() => navigate("/register")}
+              className="navbar-register"
+            >
+              Регистрация
+            </button>
           </div>
         </div>
       </header>

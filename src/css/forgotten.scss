@@ -1,0 +1,15 @@
+.login-conatiner-titlee {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  margin-top: 170px;
+}
+
+.login-conatiner-titlee > h3 {
+  font-size: 36px;
+  font-family: var(--secondary-family);
+}
+
+.login-conatiner-titlee > p {
+  font-size: 16px;
+}
