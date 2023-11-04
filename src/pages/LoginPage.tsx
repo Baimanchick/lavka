@@ -10,6 +10,8 @@ import logo from "../css/images/logo.svg";
 function LoginPage() {
   const [activeButton, setActiveButton] = useState("");
   const [errorInput, setErrorInput] = useState(false);
+  const [showPassword, setShowPassword] = useState(false);
+
   const navigate = useNavigate();
 
   const handleButtonClick = (button: string) => {
@@ -86,10 +88,15 @@ function LoginPage() {
             <div className="password-login">
               <span>Пароль</span>
               <div className="input-container">
-                <input type="password" />
+                {showPassword ? (
+                  <input type="text" />
+                ) : (
+                  <input type="password" />
+                )}
                 <AiFillEyeInvisible
                   style={{ fontSize: "22px" }}
                   className="eye-icon"
+                  onClick={() => setShowPassword(!showPassword)}
                 />
               </div>
               <div className="forgotten-password">

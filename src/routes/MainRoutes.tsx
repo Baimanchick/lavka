@@ -13,6 +13,7 @@ import RegisterPod from "../pages/RegisterPod";
 import RegisterZak from "../pages/RegisterZak";
 import RegisterPassword from "../pages/RegisterPassword";
 import RegisterCode from "../pages/RegisterCode";
+import Account from "../pages/Account";
 
 function MainRoutes() {
   return (
@@ -23,6 +24,7 @@ function MainRoutes() {
         <Route path="/announcement" element={<AnnouncementPage />} />
         <Route path="/tender" element={<TenderPage />} />
         <Route path="/questions" element={<QuestionsPage />} />
+        <Route path="/account" element={<Account />} />
       </Route>
       <Route path="/login" element={<LoginPage />} />
       <Route path="/register" element={<RegisterPage />} />
